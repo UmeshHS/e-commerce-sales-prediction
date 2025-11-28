@@ -10,25 +10,7 @@ It uses:
 
 ---
 
-## 📂 Project Structure
 
-project/
-│
-├── ecommerce-frontend/ # React Frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── App.js # DemandPrediction UI
-│ │ ├── DemandForm.js
-│ │ ├── App.css
-│ │ ├── index.js
-│ ├── package.json
-│
-├── app.py # FastAPI Backend (Main API)
-├── train_model.py # ML training script
-├── xgb_demand_model.pkl # Saved ML model
-├── ecommerce_sales_data.csv # Dataset
-├── test_request.py # For backend testing
-└── README.md
 
 ## 🚀 Features
 
@@ -67,10 +49,11 @@ project/
 
 ### 1️⃣ Go to project folder
 
-  cd project
+cd project
   
 2️⃣ Install dependencies
-  pip install fastapi uvicorn numpy pandas scikit-learn xgboost joblib textblob
+
+pip install fastapi uvicorn numpy pandas scikit-learn xgboost joblib textblob
 
 3️⃣ Run backend
 
@@ -84,13 +67,16 @@ http://127.0.0.1:8000/docs
 
 💻 Frontend Setup (React)
 1️⃣ Go inside React folder
-  cd ecommerce-frontend
+
+cd ecommerce-frontend
   
 2️⃣ Install packages
-  npm install
+
+npm install
   
 3️⃣ Run frontend
-  npm start run
+
+npm start run
 
 
 Frontend will run at:
