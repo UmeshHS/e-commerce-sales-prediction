@@ -25,7 +25,7 @@ export default function DemandPrediction() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://127.0.0.1:8000/predict-prescribe", {
+      const response = await axios.post("https://e-commerce-sales-prediction-f0ro.onrender.com", {
         ...formData,
         product_id: parseInt(formData.product_id),
         store_id: parseInt(formData.store_id),
