@@ -123,9 +123,16 @@ Predicted Demand
 
 Current Stock
 
+## 🚀 Live Demo Links
+
+Frontend (React):  
+https://e-commerce-sales-prediction.vercel.app/
+
+Backend (FastAPI):  
+https://e-commerce-sales-prediction-f0ro.onrender.com/predict-prescribe
+
 
 👤 Author
 Umesh H S
 
-yaml
-Copy code
+
